@@ -8,7 +8,7 @@ This document provides an overview of my experience working in the [FUM CARE Lab
 
 ### Overview
 The FUM-Delta robot is a member of the parallel robot family, renowned for its exceptional speed (approximately 10 m/s) and acceleration (100-180 m/s²). This robot comprises three parallelogram arms connected to an end effector. The joints in the FUM-Delta can be hinged, spherical, or universal. Due to its remarkable speed, the FUM-Delta is widely employed in various industries, including food and military sectors, for tasks such as pick and place and packaging of various products.
-![](https://i.ibb.co/m0F7t7Z/fum-delta11.jpg)
+![](https://github.com/kimia-mahdinezhad/Delta-and-3RRS-Robots-Document/blob/main/Media/FUM-Delta.jpg)
 
 ### My Contribution
 I implemented a hand gesture control system for the FUM-Delta robot using a webcam and image processing tools, including OpenCV and the [MediaPipe](https://github.com/google/mediapipe) library. This system allowed for intuitive, real-time control of the robot's movements through hand gestures. The gestures we designed included `pick` to activate the robot's suction for picking up objects (e.g., ping pong balls), `control`, and `place` to deactivate the suction and place the object.
@@ -21,7 +21,7 @@ I implemented a hand gesture control system for the FUM-Delta robot using a webc
 
 ### Overview
 The FUM-3RRS robot is a simulator with three degrees of freedom (DOF), capable of creating Heave, Pitch, and Roll movements at the end effector. This spatial parallel robot consists of a base platform, a movable platform, and three connecting legs. Each leg comprises two links and a sequence of revolute and spherical joints. The FUM-3RRS robot is specifically designed for achieving stability in swinging and turbulent environments. Despite its compact size, it can handle weights of up to 250 Kg, move 15 centimeters up or down from its home state, and generate Roll and Pitch movements of up to 15 degrees at the end effector.
-![](https://i.ibb.co/SNT8J6H/fum-3rrs02.jpg)
+![](https://github.com/kimia-mahdinezhad/Delta-and-3RRS-Robots-Document/blob/main/Media/FUM-3RRS.jpg)
 
 ### My Contribution
 I enabled movement control on the FUM-3RRS robot, allowing it to generate trajectories by controlling roll, pitch, and yaw movements using motor drivers. Special attention was given to sensors to prevent the robot from moving too high or too low, ensuring the safety of the device. The control system was implemented using Python and C++.
